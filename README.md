@@ -20,3 +20,5 @@ python3 -B tests.py
 - 2026-11: PR 봇 검증용 데모 변경
 
 <!-- lab ingress verification -->
+
+<!-- fixed domain ingress verification -->
