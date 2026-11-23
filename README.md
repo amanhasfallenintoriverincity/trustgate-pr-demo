@@ -22,3 +22,5 @@ python3 -B tests.py
 <!-- lab ingress verification -->
 
 <!-- fixed domain ingress verification -->
+
+<!-- retry after launcher logging fix 095058 -->
