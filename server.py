@@ -179,6 +179,8 @@ class LabHandler(BaseHTTPRequestHandler):
                 return self._admin()
             if method == "GET" and url.path == "/api/download":
                 return self._download(url.query)
+            if method == "GET" and url.path == "/healthz":
+                return self._send(200, {"status": "ok"})
             self._error(404, "not found")
         except (ValueError, UnicodeError, OSError, sqlite3.Error, RecursionError):
             self._error(400, "invalid request")
