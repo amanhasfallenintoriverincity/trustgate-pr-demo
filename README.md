@@ -18,3 +18,5 @@ python3 -B tests.py
 ## 변경 이력
 
 - 2026-11: PR 봇 검증용 데모 변경
+
+<!-- lab ingress verification -->
